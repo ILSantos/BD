@@ -1,9 +1,0 @@
-1. Papers by Lawrence Page
-2. Papers with keyword "Information Retrieval"
-3. Return the 100 most recent papers about "Indoor Localization"
-4. show latest DeepMind's papers
-5. Papers about "Reinforcement Learning" 
-6. Playing Atari with Deep Reinforcement Learning
-7. Papers by Google
-8. Papers with 20 or more citations
-9. Papers with keyword "Video Games"
