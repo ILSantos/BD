@@ -5,6 +5,7 @@ O tempo de acesso para leitura ou escrita em disco requer três passos (cada um 
 - `seek`: busca da trilha;  posicionamento do braço na trilha correta
 - `rotação`: espera para que o setor desejado seja posicionado até a cabeça de leitura/escrita
 - `transferência`: transferência dos bits (em bloco) armazenados no setor que está ao alcance da cabeça
+
 O tempo de transferência sempre será necessário, mas os outros dois podem ser ignorados se os blocos a serem lidos/escritos estiverem em setores sequenciais.
 
 2. **Discuta as vantagens e desvantagens em se utilizar (a) um arquivo não ordenado (b) um arquivo ordenado (c) um arquivo estático hash com buckets e encadeamento. Quais operações podem ser realizadas de maneira mais eficiente em cada um destes tipos de organização e quais são dispendiosas.**
